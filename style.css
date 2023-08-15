@@ -33,7 +33,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Montserrat', sans;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .theCard .imgLogo{
