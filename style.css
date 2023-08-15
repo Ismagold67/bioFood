@@ -1,5 +1,12 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 
+@font-face {
+    font-family: 'Montserrat';
+    src: url(assets/Montserrat-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -41,14 +48,13 @@
 .cardPhone{
     margin-top: 30px;
     width: 90%;
-    height: 150px;
+    height: 180px;
     background-color: #26D07C;
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.13);
-    filter: blur(.2px);
     cursor: pointer;
 }
 
