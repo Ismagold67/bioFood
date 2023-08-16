@@ -8,6 +8,11 @@ body{
     background-color: #F4F5F4;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .container{
     width: 100%;
     height: 100%;
@@ -34,10 +39,11 @@ body{
 }
 
 .theCard .imgLogo{
-    margin-top: 5px;
-    width: 120px;
-    border-radius: 600px;
-    border: 1px solid rgba(0, 0, 0, 0.508);
+    margin-top: 9px;
+    width: 110px;
+    border-radius: 650px;
+    padding: -15px;
+    box-shadow: 0px 0px 15px #0f0e0e5c;
 }
 
 .theCard p {
@@ -120,6 +126,7 @@ body{
     width: 80%;
     margin-left: 10px;
     font-weight: bolder;
+    text-align: left;
 }
 
 .cardInfoLink i {
